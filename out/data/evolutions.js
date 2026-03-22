@@ -39,10 +39,10 @@ const EVOLUTIONS = {
   'Nyaromon': { xpToEvolve: 50,  evolvesTo: ['Salamon', 'Terriermon', 'Lunamon', 'Renamon']  },
   'Caprimon':    { xpToEvolve: 50, evolvesTo: ['Hagurumon', 'Toyagumon', 'Gottsumon', 'Gazimon', 'Goblimon'] },
   'Pagumon':     { xpToEvolve: 50, evolvesTo: ['Gazimon', 'Gizamon', 'Demidevimon', 'Otamamon',] },
-  'Sunmon':      { xpToEvolve: 50, evolvesTo: ['Coronamon', 'Guilmon', 'Salamon', 'Candlemon'] },
-  'Petimeramon': { xpToEvolve: 50, evolvesTo: [] },
-  'Moonmon':     { xpToEvolve: 50, evolvesTo: [] },
-  'Babydmon':    { xpToEvolve: 50, evolvesTo: [] },
+  'Sunmon':      { xpToEvolve: 50, evolvesTo: ['Coronamon', 'Guilmon', 'Salamon', 'Candlemon', 'Agumon'] },
+  'Petimeramon': { xpToEvolve: 50, evolvesTo: ['Candlemon', 'Agumon', 'Coronamon', 'Bakumon', 'Guilmon' ] },
+  'Moonmon':     { xpToEvolve: 50, evolvesTo: ['Lunamon', 'Gazimon', 'Demidevimon', 'Renamon', 'Goblimon'] },
+  'Babydmon':    { xpToEvolve: 50, evolvesTo: ['Dracomon', 'Otamamon', 'Agumon', 'Gabumon', 'Veemon'] },
 
 
 
