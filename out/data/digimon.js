@@ -49,7 +49,15 @@ const DIGIMON = {
   'Patamon':  { stage: 'Rookie',      sprite: 'patamon.gif'             },
   'Salamon':  { stage: 'Rookie',      sprite: 'salamon.gif'             },
   'Guilmon':  { stage: 'Rookie',      sprite: 'guilmon.gif'             },
-  'Dracomon':  { stage: 'Rookie',      sprite: 'dracomon.gif'             },
+  'Dracomon':  { stage: 'Rookie',      sprite: 'dracomon.gif'           },
+  'Demidevimon':  { stage: 'Rookie',      sprite: 'demidevimon.gif'     },
+  'Elecmon':  { stage: 'Rookie',      sprite: 'elecmon.gif'             },
+  'Gaomon':  { stage: 'Rookie',      sprite: 'gaomon.gif'             },
+  'Goblimon':  { stage: 'Rookie',      sprite: 'goblimon.gif'             },
+  'Hagurumon':  { stage: 'Rookie',      sprite: 'hagurumon.gif'             },
+  'Kunemon':  { stage: 'Rookie',      sprite: 'kunemon.gif'             },
+  'Veemon':  { stage: 'Rookie',      sprite: 'veemon.gif'             },
+  'Toyagumon':  { stage: 'Rookie',      sprite: 'Toyagumon.gif'             },
   
 
   // ── Champion ───────────────────────────────────────────────────────────────
