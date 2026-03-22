@@ -1,0 +1,29 @@
+{
+  "name": "digimon-partner",
+  "displayName": "Digimon Partner",
+  "description": "Raise a Digimon partner that evolves as you code!",
+  "version": "0.1.0",
+  "publisher": "digimon-dev",
+  "icon": "media/icon.png",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "digimon.resetPartner", "title": "Digimon: Reset Partner" },
+      { "command": "digimon.debug.addDigimon", "title": "Digimon: [Debug] Add Digimon" },
+      { "command": "digimon.debug.addXP", "title": "Digimon: [Debug] Add XP" }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        { "id": "digimon-sidebar", "title": "Digimon Partner", "icon": "media/icon.png" }
+      ]
+    },
+    "views": {
+      "digimon-sidebar": [
+        { "type": "webview", "id": "digimonPartner.mainView", "name": "Your Partner" }
+      ]
+    }
+  }
+}
