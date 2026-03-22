@@ -63,7 +63,7 @@ const EVOLUTIONS = {
   'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon']             },
   'Zudomon':         { xpToEvolve: 800, evolvesTo: ['Vikemon']             },
   'MagnaAngemon':    { xpToEvolve: 800, evolvesTo: ['Seraphimon']          },
-  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon']           },
+  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon']           },
   
 
   // ── Mega — no further evolution ───────────────────────────────────────────

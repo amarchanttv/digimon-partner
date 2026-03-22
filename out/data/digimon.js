@@ -69,6 +69,7 @@ const DIGIMON = {
   'Vikemon':             { stage: 'Mega', sprite: 'vikemon.gif'             },
   'Seraphimon':          { stage: 'Mega', sprite: 'seraphimon.gif'          },
   'Magnadramon':         { stage: 'Mega', sprite: 'magnadramon.gif'         },
+  'Valkyrimon':          { stage: 'Mega', sprite: 'valkyrimon.gif'          },
 };
 
 module.exports = { DIGIMON };
