@@ -9,22 +9,26 @@ const DIGIMON = {
   // ── Fresh ──────────────────────────────────────────────────────────────────
   'Botamon':  { stage: 'Fresh',       sprite: 'botamon.gif'             },
   'Punimon':  { stage: 'Fresh',       sprite: 'punimon.gif'             },
-  'Yokomon':  { stage: 'Fresh',       sprite: 'yokomon.gif'             },
-  'Motimon':  { stage: 'Fresh',       sprite: 'motimon.gif'             },
+  'Nyokimon': { stage: 'Fresh',       sprite: 'nyokimon.gif'            },
+  'Pabumon':  { stage: 'Fresh',       sprite: 'pabumon.gif'             },
   'Yuramon':  { stage: 'Fresh',       sprite: 'yuramon.gif'             },
   'Pichimon': { stage: 'Fresh',       sprite: 'pichimon.gif'            },
   'Poyomon':  { stage: 'Fresh',       sprite: 'poyomon.gif'             },
+  'Zurumon':  { stage: 'Fresh',       sprite: 'zurumon.gif'             },
+  'Choromon':  { stage: 'Fresh',       sprite: 'choromon.gif'             },
   
 
   // ── In-Training ────────────────────────────────────────────────────────────
   'Koromon':  { stage: 'In-Training', sprite: 'koromon.gif'             },
   'Tsunomon': { stage: 'In-Training', sprite: 'tsunomon.gif'            },
   'Pyokomon': { stage: 'In-Training', sprite: 'pyokomon.gif'            },
-  'Pabumon':  { stage: 'In-Training', sprite: 'pabumon.gif'             },
+  'Motimon':  { stage: 'In-Training', sprite: 'motimon.gif'             },
   'Tanemon':  { stage: 'In-Training', sprite: 'tanemon.gif'             },
   'Bukamon':  { stage: 'In-Training', sprite: 'bukamon.gif'             },
   'Tokomon':  { stage: 'In-Training', sprite: 'tokomon.gif'             },
   'Nyaromon': { stage: 'In-Training', sprite: 'nyaromon.gif'            },
+  'Caprimon': { stage: 'In-Training', sprite: 'caprimon.gif'            },
+  'Pagumon': { stage: 'In-Training', sprite: 'pagumon.gif'            },
   
 
   // ── Rookie ─────────────────────────────────────────────────────────────────
@@ -70,6 +74,7 @@ const DIGIMON = {
   'Seraphimon':          { stage: 'Mega', sprite: 'seraphimon.gif'          },
   'Magnadramon':         { stage: 'Mega', sprite: 'magnadramon.gif'         },
   'Valkyrimon':          { stage: 'Mega', sprite: 'valkyrimon.gif'          },
+  'Ophanimon':          { stage: 'Mega', sprite: 'ophanimon.gif'          },
 };
 
 module.exports = { DIGIMON };

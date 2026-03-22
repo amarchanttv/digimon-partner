@@ -16,18 +16,20 @@ const EVOLUTIONS = {
   // ── Fresh → In-Training (20 XP) ───────────────────────────────────────────
   'Botamon':  { xpToEvolve: 20,  evolvesTo: ['Koromon']  },
   'Punimon':  { xpToEvolve: 20,  evolvesTo: ['Tsunomon', 'Nyaromon'] },
-  'Yokomon':  { xpToEvolve: 20,  evolvesTo: ['Pyokomon'] },
-  'Motimon':  { xpToEvolve: 20,  evolvesTo: ['Pabumon']  },
+  'Nyokimon': { xpToEvolve: 20,  evolvesTo: ['Pyokomon'] },
+  'Pabumon':  { xpToEvolve: 20,  evolvesTo: ['Motimon', 'Pyokomon', 'Tanemon']  },
   'Yuramon':  { xpToEvolve: 20,  evolvesTo: ['Tanemon']  },
   'Pichimon': { xpToEvolve: 20,  evolvesTo: ['Bukamon']  },
-  'Poyomon':  { xpToEvolve: 20,  evolvesTo: ['Tokomon']  },
+  'Poyomon':  { xpToEvolve: 20,  evolvesTo: ['Tokomon', 'Bukamon']  },
+  'Zurumon':  { xpToEvolve: 20,  evolvesTo: ['Motimon', 'Koromon', 'Caprimon', 'Pagumon']  },
+  'Choromon': { xpToEvolve: 20,  evolvesTo: ['Caprimon']  },
   
 
   // ── In-Training → Rookie (50 XP) ──────────────────────────────────────────
   'Koromon':  { xpToEvolve: 50,  evolvesTo: ['Agumon']   },
   'Tsunomon': { xpToEvolve: 50,  evolvesTo: ['Gabumon']  },
   'Pyokomon': { xpToEvolve: 50,  evolvesTo: ['Biyomon']  },
-  'Pabumon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon'] },
+  'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon'] },
   'Tanemon':  { xpToEvolve: 50,  evolvesTo: ['Palmon']   },
   'Bukamon':  { xpToEvolve: 50,  evolvesTo: ['Gomamon']  },
   'Tokomon':  { xpToEvolve: 50,  evolvesTo: ['Patamon']  },
@@ -63,7 +65,7 @@ const EVOLUTIONS = {
   'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon']             },
   'Zudomon':         { xpToEvolve: 800, evolvesTo: ['Vikemon']             },
   'MagnaAngemon':    { xpToEvolve: 800, evolvesTo: ['Seraphimon']          },
-  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon']           },
+  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon']},
   
 
   // ── Mega — no further evolution ───────────────────────────────────────────
@@ -77,7 +79,9 @@ const EVOLUTIONS = {
   'Magnadramon':         { xpToEvolve: null, evolvesTo: [] },
 };
 
-// The pool of possible starting eggs (all Fresh stage)
-const FRESH_EGGS = ['Botamon', 'Punimon', 'Yokomon', 'Motimon', 'Yuramon', 'Pichimon', 'Poyomon'];
+const { DIGIMON } = require('./digimon');
+ 
+// Automatically includes any Digimon with stage 'Fresh' — no need to update manually
+const FRESH_EGGS = Object.keys(DIGIMON).filter(name => DIGIMON[name].stage === 'Fresh');
 
 module.exports = { EVOLUTIONS, FRESH_EGGS };
