@@ -17,6 +17,8 @@ const DIGIMON = {
   'Zurumon':  { stage: 'Fresh',       sprite: 'zurumon.gif'             },
   'Choromon':  { stage: 'Fresh',       sprite: 'choromon.gif'           },
   'Mokumon':  { stage: 'Fresh',       sprite: 'mokumon.gif'             },
+  'Yukimibotamon':  { stage: 'Fresh',       sprite: 'yukimibotamon.gif'             },
+  'Petitmon':  { stage: 'Fresh',       sprite: 'petitmon.gif'             },
   
 
   // ── In-Training ────────────────────────────────────────────────────────────
@@ -32,6 +34,9 @@ const DIGIMON = {
   'Pagumon': { stage: 'In-Training', sprite: 'pagumon.gif'              },
   'Sunmon': { stage: 'In-Training', sprite: 'sunmon.gif'                },
   'Petimeramon': { stage: 'In-Training', sprite: 'petimeramon.gif'      },
+  'Moonmon': { stage: 'In-Training', sprite: 'Moonmon.gif'      },
+  'Babydmon': { stage: 'In-Training', sprite: 'babydmon.gif'                },
+
   
 
   // ── Rookie ─────────────────────────────────────────────────────────────────
@@ -43,6 +48,8 @@ const DIGIMON = {
   'Gomamon':  { stage: 'Rookie',      sprite: 'gomamon.gif'             },
   'Patamon':  { stage: 'Rookie',      sprite: 'patamon.gif'             },
   'Salamon':  { stage: 'Rookie',      sprite: 'salamon.gif'             },
+  'Guilmon':  { stage: 'Rookie',      sprite: 'guilmon.gif'             },
+  'Dracomon':  { stage: 'Rookie',      sprite: 'dracomon.gif'             },
   
 
   // ── Champion ───────────────────────────────────────────────────────────────
