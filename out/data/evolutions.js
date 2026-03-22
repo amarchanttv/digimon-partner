@@ -32,11 +32,23 @@ const EVOLUTIONS = {
   'Koromon':  { xpToEvolve: 50,  evolvesTo: ['Agumon', 'Dracomon', 'Guilmon', 'Veemon', 'Toyagumon']   },
   'Tsunomon': { xpToEvolve: 50,  evolvesTo: ['Gabumon', 'Elecmon', 'Gaomon', 'Goblimon', 'Demidevimon', 'Veemon']  },
   'Pyokomon': { xpToEvolve: 50,  evolvesTo: ['Biyomon', 'Elecmon', 'Demidevimon', 'Floramon', 'Falcomon', 'Mushroomon']  },
-  'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon'] },
-  'Tanemon':  { xpToEvolve: 50,  evolvesTo: ['Palmon']   },
-  'Bukamon':  { xpToEvolve: 50,  evolvesTo: ['Gomamon']  },
-  'Tokomon':  { xpToEvolve: 50,  evolvesTo: ['Patamon']  },
-  'Nyaromon': { xpToEvolve: 50,  evolvesTo: ['Salamon']  },
+  'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon', 'Gottsumon', 'Hagurumon', 'Kunemon', 'Elecmon'] },
+  'Tanemon':  { xpToEvolve: 50,  evolvesTo: ['Palmon', 'Renamon', 'Mushroomon', 'Floramon', 'Kunemon']   },
+  'Bukamon':  { xpToEvolve: 50,  evolvesTo: ['Gomamon', 'Gizamon', 'Kamemon', 'Otamamon', 'Yukiagumon']  },
+  'Tokomon':  { xpToEvolve: 50,  evolvesTo: ['Patamon', 'Coronamon', 'Terriermon', 'Armadimon', 'Falcomon', 'Bakumon']  },
+  'Nyaromon': { xpToEvolve: 50,  evolvesTo: ['Salamon', 'Terriermon', 'Lunamon', 'Renamon']  },
+  'Caprimon':    { xpToEvolve: 50, evolvesTo: ['Hagurumon', 'Toyagumon', 'Gottsumon', 'Gazimon', 'Goblimon'] },
+  'Pagumon':     { xpToEvolve: 50, evolvesTo: ['Gazimon', 'Gizamon', 'Demidevimon', 'Otamamon',] },
+  'Sunmon':      { xpToEvolve: 50, evolvesTo: ['Coronamon', 'Guilmon', 'Salamon', 'Candlemon'] },
+  'Petimeramon': { xpToEvolve: 50, evolvesTo: [] },
+  'Moonmon':     { xpToEvolve: 50, evolvesTo: [] },
+  'Babydmon':    { xpToEvolve: 50, evolvesTo: [] },
+
+
+
+
+
+
 
   // ── Rookie → Champion (150 XP) ────────────────────────────────────────────
   'Agumon':   { xpToEvolve: 150, evolvesTo: ['Greymon']      },
@@ -80,6 +92,7 @@ const EVOLUTIONS = {
   'Vikemon':             { xpToEvolve: null, evolvesTo: [] },
   'Seraphimon':          { xpToEvolve: null, evolvesTo: [] },
   'Magnadramon':         { xpToEvolve: null, evolvesTo: [] },
+  'Valkyrimon':         { xpToEvolve: null, evolvesTo:  [] },
 };
 
 const { DIGIMON } = require('./digimon');
