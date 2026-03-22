@@ -58,6 +58,9 @@ const DIGIMON = {
   'Kunemon':  { stage: 'Rookie',      sprite: 'kunemon.gif'             },
   'Veemon':  { stage: 'Rookie',      sprite: 'veemon.gif'             },
   'Toyagumon':  { stage: 'Rookie',      sprite: 'Toyagumon.gif'             },
+  'Falcomon':  { stage: 'Rookie',      sprite: 'falcomon.gif'           },
+  'Floramon':  { stage: 'Rookie',      sprite: 'floramon.gif'     },
+  'Mushroomon':  { stage: 'Rookie',      sprite: 'mushroomon.gif'             },
   
 
   // ── Champion ───────────────────────────────────────────────────────────────
