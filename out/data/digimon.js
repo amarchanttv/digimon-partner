@@ -15,7 +15,8 @@ const DIGIMON = {
   'Pichimon': { stage: 'Fresh',       sprite: 'pichimon.gif'            },
   'Poyomon':  { stage: 'Fresh',       sprite: 'poyomon.gif'             },
   'Zurumon':  { stage: 'Fresh',       sprite: 'zurumon.gif'             },
-  'Choromon':  { stage: 'Fresh',       sprite: 'choromon.gif'             },
+  'Choromon':  { stage: 'Fresh',       sprite: 'choromon.gif'           },
+  'Mokumon':  { stage: 'Fresh',       sprite: 'mokumon.gif'             },
   
 
   // ── In-Training ────────────────────────────────────────────────────────────
@@ -28,7 +29,9 @@ const DIGIMON = {
   'Tokomon':  { stage: 'In-Training', sprite: 'tokomon.gif'             },
   'Nyaromon': { stage: 'In-Training', sprite: 'nyaromon.gif'            },
   'Caprimon': { stage: 'In-Training', sprite: 'caprimon.gif'            },
-  'Pagumon': { stage: 'In-Training', sprite: 'pagumon.gif'            },
+  'Pagumon': { stage: 'In-Training', sprite: 'pagumon.gif'              },
+  'Sunmon': { stage: 'In-Training', sprite: 'sunmon.gif'                },
+  'Petimeramon': { stage: 'In-Training', sprite: 'petimeramon.gif'      },
   
 
   // ── Rookie ─────────────────────────────────────────────────────────────────

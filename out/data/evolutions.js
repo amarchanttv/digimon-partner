@@ -23,6 +23,7 @@ const EVOLUTIONS = {
   'Poyomon':  { xpToEvolve: 20,  evolvesTo: ['Tokomon', 'Bukamon']  },
   'Zurumon':  { xpToEvolve: 20,  evolvesTo: ['Motimon', 'Koromon', 'Caprimon', 'Pagumon']  },
   'Choromon': { xpToEvolve: 20,  evolvesTo: ['Caprimon']  },
+  'Mokumon': { xpToEvolve: 20,  evolvesTo: ['Caprimon', 'Sunmon', 'Petimeramon']  },
   
 
   // ── In-Training → Rookie (50 XP) ──────────────────────────────────────────
