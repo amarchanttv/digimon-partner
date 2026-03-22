@@ -25,12 +25,13 @@ const EVOLUTIONS = {
   'Choromon': { xpToEvolve: 20,  evolvesTo: ['Caprimon']  },
   'Mokumon': { xpToEvolve: 20,  evolvesTo: ['Caprimon', 'Sunmon', 'Petimeramon']  },
   'Yukimibotamon': { xpToEvolve: 20,  evolvesTo: ['Moonmon', 'Tsunomon']  },
+  'Petitmon': { xpToEvolve: 20,  evolvesTo: ['Babydmon']  },
   
 
   // ── In-Training → Rookie (50 XP) ──────────────────────────────────────────
   'Koromon':  { xpToEvolve: 50,  evolvesTo: ['Agumon', 'Dracomon', 'Guilmon', 'Veemon', 'Toyagumon']   },
   'Tsunomon': { xpToEvolve: 50,  evolvesTo: ['Gabumon', 'Elecmon', 'Gaomon', 'Goblimon', 'Demidevimon', 'Veemon']  },
-  'Pyokomon': { xpToEvolve: 50,  evolvesTo: ['Biyomon']  },
+  'Pyokomon': { xpToEvolve: 50,  evolvesTo: ['Biyomon', 'Elecmon', 'Demidevimon', 'Floramon', 'Falcomon', 'Mushroomon']  },
   'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon'] },
   'Tanemon':  { xpToEvolve: 50,  evolvesTo: ['Palmon']   },
   'Bukamon':  { xpToEvolve: 50,  evolvesTo: ['Gomamon']  },
