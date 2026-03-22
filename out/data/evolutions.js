@@ -29,10 +29,10 @@ const EVOLUTIONS = {
   
 
   // ── In-Training → Rookie (50 XP) ──────────────────────────────────────────
-  'Koromon':  { xpToEvolve: 50,  evolvesTo: ['Agumon', 'Dracomon', 'Guilmon', 'Veemon', 'Toyagumon']   },
+  'Koromon':  { xpToEvolve: 50,  evolvesTo: ['Agumon', 'Dracomon', 'Guilmon', 'Veemon', 'Toyagumon', 'Yukiagumon']   },
   'Tsunomon': { xpToEvolve: 50,  evolvesTo: ['Gabumon', 'Elecmon', 'Gaomon', 'Goblimon', 'Demidevimon', 'Veemon']  },
   'Pyokomon': { xpToEvolve: 50,  evolvesTo: ['Biyomon', 'Elecmon', 'Demidevimon', 'Floramon', 'Falcomon', 'Mushroomon']  },
-  'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon', 'Gottsumon', 'Hagurumon', 'Kunemon', 'Elecmon'] },
+  'Motimon':  { xpToEvolve: 50,  evolvesTo: ['Tentomon', 'Gottsumon', 'Hagurumon', 'Kunemon', 'Elecmon', 'Palmon'] },
   'Tanemon':  { xpToEvolve: 50,  evolvesTo: ['Palmon', 'Renamon', 'Mushroomon', 'Floramon', 'Kunemon']   },
   'Bukamon':  { xpToEvolve: 50,  evolvesTo: ['Gomamon', 'Gizamon', 'Kamemon', 'Otamamon', 'Yukiagumon']  },
   'Tokomon':  { xpToEvolve: 50,  evolvesTo: ['Patamon', 'Coronamon', 'Terriermon', 'Armadimon', 'Falcomon', 'Bakumon']  },
@@ -45,11 +45,6 @@ const EVOLUTIONS = {
   'Babydmon':    { xpToEvolve: 50, evolvesTo: ['Dracomon', 'Otamamon', 'Agumon', 'Gabumon', 'Veemon'] },
 
 
-
-
-
-
-
   // ── Rookie → Champion (150 XP) ────────────────────────────────────────────
   'Agumon':   { xpToEvolve: 150, evolvesTo: ['Greymon']      },
   'Gabumon':  { xpToEvolve: 150, evolvesTo: ['Garurumon']    },
@@ -58,7 +53,6 @@ const EVOLUTIONS = {
   'Palmon':   { xpToEvolve: 150, evolvesTo: ['Togemon']      },
   'Gomamon':  { xpToEvolve: 150, evolvesTo: ['Ikkakumon']    },
   'Patamon':  { xpToEvolve: 150, evolvesTo: ['Angemon']      },
-  'Gatomon':  { xpToEvolve: 150, evolvesTo: ['Angewomon']    },
   'Salamon':  { xpToEvolve: 150, evolvesTo: ['Gatomon']     },
 
   // ── Champion → Ultimate (400 XP) ──────────────────────────────────────────
