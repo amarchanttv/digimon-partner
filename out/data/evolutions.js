@@ -46,8 +46,8 @@ const EVOLUTIONS = {
  
 
   // ── Rookie → Champion (150 XP) ────────────────────────────────────────────
-  'Agumon':     { xpToEvolve: 150, evolvesTo: ['Greymon', 'GeoGreymon', 'Tyranomon', 'Meramon', 'Monochromon', 'Numemon', 'Sukamon']      },
-  'Gabumon':    { xpToEvolve: 150, evolvesTo: ['Garurumon']    },
+  'Agumon':     { xpToEvolve: 150, evolvesTo: ['Greymon', 'GeoGreymon', 'Tyranomon', 'Meramon', 'Monochromon']      },
+  'Gabumon':    { xpToEvolve: 150, evolvesTo: ['Garurumon', 'Ikkakumon', 'Veedramon', 'Frigimon', 'Gaogamon', 'Seadramon']    },
   'Biyomon':    { xpToEvolve: 150, evolvesTo: ['Birdramon']    },
   'Tentomon':   { xpToEvolve: 150, evolvesTo: ['Kabuterimon']  },
   'Palmon':     { xpToEvolve: 150, evolvesTo: ['Togemon']      },
