@@ -77,9 +77,9 @@ const EVOLUTIONS = {
   'Kamemon':    { xpToEvolve: 150, evolvesTo: ['Shellmon', 'Sorcerimon', 'Seadramon'] },
   'Lunamon':    { xpToEvolve: 150, evolvesTo: ['Lekismon', 'Frigimon', 'Sorcerimon', 'Gatomon'] },
   'Otamamon':   { xpToEvolve: 150, evolvesTo: ['Gekomon', 'Seadramon', 'Raremon'] },
-  'Renamon':    { xpToEvolve: 150, evolvesTo: ['Kyubimon', ] },
-  'Terriermon': { xpToEvolve: 150, evolvesTo: [] },
-  'Yukiagumon': { xpToEvolve: 150, evolvesTo: [] },
+  'Renamon':    { xpToEvolve: 150, evolvesTo: ['Kyubimon', 'Lekismon', 'Garurumon'] },
+  'Terriermon': { xpToEvolve: 150, evolvesTo: ['Gargomon', 'Ikkakumon', 'Ogremon', 'Angemon', 'Lekismon'] },
+  'Yukiagumon': { xpToEvolve: 150, evolvesTo: ['Bakemon', 'Icedevimon', 'Seadramon', 'Frigimon'] },
 
   // ── Champion → Ultimate (400 XP) ──────────────────────────────────────────
   'Greymon':     { xpToEvolve: 400, evolvesTo: ['MetalGreymon']       },
