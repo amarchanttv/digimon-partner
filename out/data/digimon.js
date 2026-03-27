@@ -93,7 +93,7 @@ const DIGIMON = {
   'Clockmon':      { stage: 'Champion', sprite: 'clockmon.gif'      },
   'Coredramon':    { stage: 'Champion', sprite: 'coredramon.gif'    },
   'Darcmon':       { stage: 'Champion', sprite: 'darcmon.gif'       },
-  'DarkTyranomon': { stage: 'Champion', sprite: 'darktyranomon.gif' },
+  'Darktyranomon': { stage: 'Champion', sprite: 'darktyranomon.gif' },
   'Devidramon':    { stage: 'Champion', sprite: 'devidramon.gif'    },
   'Devimon':       { stage: 'Champion', sprite: 'devimon.gif'       },
   'Firamon':       { stage: 'Champion', sprite: 'firamon.gif'       },
