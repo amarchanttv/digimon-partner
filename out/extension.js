@@ -588,7 +588,21 @@ function activate(ctx) {
     })
   );
   ctx.subscriptions.push(
-    vscode.commands.registerCommand('digimon.resetPartner', async () => {
+    vscode.commands.registerCommand('digimon.debug.validate', () => {
+      const { execSync } = require('child_process');
+      const path = require('path');
+      const validateScript = path.join(ctx.extensionUri.fsPath, 'validate.js');
+      const outFile = path.join(ctx.extensionUri.fsPath, 'digimon-validation.html');
+      try {
+        execSync(`node "${validateScript}"`, { cwd: ctx.extensionUri.fsPath });
+        vscode.env.openExternal(vscode.Uri.file(outFile));
+      } catch (e) {
+        vscode.window.showErrorMessage('Validation failed: ' + e.message);
+      }
+    })
+  );
+
+  ctx.subscriptions.push(
       const pick = await vscode.window.showWarningMessage('Reset all Digimon?', 'Yes', 'Cancel');
       if (pick === 'Yes') { state.reset(); provider.refresh(null); }
     })
