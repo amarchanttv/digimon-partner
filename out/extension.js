@@ -122,7 +122,11 @@ class DigimonState {
       if (digi.unhatched) { return { id: digi.id, unhatched: true }; }
       const mon = DIGIMON[digi.currentName];
       const evo = EVOLUTIONS[digi.currentName];
-      const opts = evo ? evo.evolvesTo.map(n => ({ name: n, sprite: DIGIMON[n].sprite, stage: DIGIMON[n].stage })) : [];
+      if (!mon) {
+        // Digimon name no longer exists in data — skip it
+        return { id: digi.id, unhatched: true };
+      }
+      const opts = evo ? evo.evolvesTo.filter(n => DIGIMON[n]).map(n => ({ name: n, sprite: DIGIMON[n].sprite, stage: DIGIMON[n].stage })) : [];
       return {
         id:          digi.id,
         size:        STAGE_SIZES[mon.stage] || 48,
@@ -246,6 +250,7 @@ class DigimonSidebarProvider {
   // Full HTML rebuild — only for structural changes (new digimon, evolve, hatch)
   _buildHtml() {
     if (!this._view) { return; }
+    try {
     this._htmlBuilt = true;
     const snap  = this.state.snapshot();
     const nonce = Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
@@ -508,6 +513,12 @@ render(SNAP);
 </script>
 </body>
 </html>`;
+    } catch(e) {
+      vscode.window.showErrorMessage('Digimon _buildHtml error: ' + e.message + ' | ' + e.stack.split('\n')[1]);
+      this._view.webview.html = `<html><body style="color:red;padding:10px;font-family:monospace">
+        <b>Error loading Digimon view:</b><br>${e.message}<br><pre>${e.stack}</pre>
+      </body></html>`;
+    }
   }
 
   _uri(f) {
@@ -603,6 +614,7 @@ function activate(ctx) {
   );
 
   ctx.subscriptions.push(
+    vscode.commands.registerCommand('digimon.resetPartner', async () => {
       const pick = await vscode.window.showWarningMessage('Reset all Digimon?', 'Yes', 'Cancel');
       if (pick === 'Yes') { state.reset(); provider.refresh(null); }
     })

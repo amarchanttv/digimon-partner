@@ -11,9 +11,10 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      { "command": "digimon.resetPartner", "title": "Digimon: Reset Partner" },
-      { "command": "digimon.debug.validate", "title": "Digimon: [Debug] Validate" },
-      { "command": "digimon.debug.addXP", "title": "Digimon: [Debug] Add XP" }
+      { "command": "digimon.resetPartner",      "title": "Digimon: Reset Partner"       },
+      { "command": "digimon.debug.validate",    "title": "Digimon: [Debug] Validate"    },
+      { "command": "digimon.debug.addDigimon",  "title": "Digimon: [Debug] Add Digimon" },
+      { "command": "digimon.debug.addXP",       "title": "Digimon: [Debug] Add XP"      }
     ],
     "viewsContainers": {
       "activitybar": [
