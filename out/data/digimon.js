@@ -186,6 +186,7 @@ const DIGIMON = {
   'Wingdramon':      { stage: 'Ultimate', sprite: 'wingdramon.gif'      },
   'Taomon':          { stage: 'Ultimate', sprite: 'taomon.gif'          },
   'Myotismon':       { stage: 'Ultimate', sprite: 'myotismon.gif'       },
+  'Antylamon':       { stage: 'Ultimate', sprite: 'antylamon.gif'       },
   
 
   // ── Mega ───────────────────────────────────────────────────────────────────
