@@ -216,6 +216,7 @@ const DIGIMON = {
   'Jijimon':             { stage: 'Mega', sprite: 'jijimon.gif'             },
   'Justimon':            { stage: 'Mega', sprite: 'justimon.gif'            },
   'Imperialdramon':      { stage: 'Mega', sprite: 'imperialdramon.gif'      },
+  'Lilithmon':           { stage: 'Mega', sprite: 'lilithmon.gif'      },
   'Machinedramon':       { stage: 'Mega', sprite: 'machinedramon.gif'       },
   'Megagargomon':        { stage: 'Mega', sprite: 'megagargomon.gif'        },
   'Metaletemon':         { stage: 'Mega', sprite: 'metaletemon.gif'         },
