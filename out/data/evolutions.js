@@ -144,7 +144,8 @@ const EVOLUTIONS = {
 
   // ── Ultimate → Mega (800 XP) ──────────────────────────────────────────────
   'Metalgreymon':    { xpToEvolve: 800, evolvesTo: ['Wargreymon', 'Victorygreymon', 'Shinegreymon','Machinedramon'] },
-  'Weregarurumon':   { xpToEvolve: 800, evolvesTo: ['Metalgarurumon', 'Miragegaogamon', 'Sakuyamon'] },
+  'Weregarurumon':   { xpToEvolve: 800, evolvesTo: ['Metalgarurumon', 'Miragegaogamon', 'Jijimon'] },
+
   'Garudamon':       { xpToEvolve: 800, evolvesTo: ['Gryphonmon', 'Magnadramon', 'Phoenixmon'] },
   'Megakabuterimon': { xpToEvolve: 800, evolvesTo: ['Herculeskabuterimon', 'Grankuwagamon', 'Magnadramon'] },
   'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon'] },
@@ -237,7 +238,8 @@ const EVOLUTIONS = {
   'Victorygreymon':      { xpToEvolve: null, evolvesTo: [] },
   'Zeedgarurumon':       { xpToEvolve: null, evolvesTo: [] },
   'Sakuyamon':           { xpToEvolve: null, evolvesTo: [] },
-  'Jijimon':       { xpToEvolve: null, evolvesTo: [] },
+  'Jijimon':             { xpToEvolve: null, evolvesTo: [] },
+  'Justimon':            { xpToEvolve: null, evolvesTo: [] },
 };
 
 const { DIGIMON } = require('./digimon');
