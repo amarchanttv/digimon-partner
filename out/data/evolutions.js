@@ -147,13 +147,13 @@ const EVOLUTIONS = {
   'Weregarurumon':   { xpToEvolve: 800, evolvesTo: ['Metalgarurumon', 'Miragegaogamon', 'Jijimon'] },
   'Garudamon':       { xpToEvolve: 800, evolvesTo: ['Gryphonmon', 'Magnadramon', 'Phoenixmon'] },
   'Megakabuterimon': { xpToEvolve: 800, evolvesTo: ['Herculeskabuterimon', 'Grankuwagamon', 'Magnadramon'] },
-
-  'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon'] },
-  'Zudomon':         { xpToEvolve: 800, evolvesTo: ['Vikemon', 'Plesiomon', 'Metalseadramon', 'Gigaseadramon'] },
-  'Magnaangemon':    { xpToEvolve: 800, evolvesTo: ['Seraphimon', 'Valkyrimon'] },
-  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon'] },
+  'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon', 'Lilithmon', 'Sakuyamon'] },
+  'Zudomon':         { xpToEvolve: 800, evolvesTo: ['Vikemon', 'Plesiomon', 'Metalseadramon', 'Gigaseadramon', 'Marineangemon'] },
+  'Magnaangemon':    { xpToEvolve: 800, evolvesTo: ['Seraphimon', 'Valkyrimon', 'Shinegreymon', 'Marineangemon'] },
+  'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon', 'Marineangemon'] },
   'Andromon':        { xpToEvolve: 800, evolvesTo: ['Hiandromon', 'Seraphimon'] },
   'Bigmamemon':      { xpToEvolve: 800, evolvesTo: ['Princemamemon'] },
+
   'Cherrymon':       { xpToEvolve: 800, evolvesTo: ['Grankuwagamon', 'Puppetmon'] },
   'Crescemon':       { xpToEvolve: 800, evolvesTo: ['Dianamon'] },
   'Crowmon':         { xpToEvolve: 800, evolvesTo: [] },
@@ -242,6 +242,7 @@ const EVOLUTIONS = {
   'Justimon':            { xpToEvolve: null, evolvesTo: [] },
   'Beelstarmon':         { xpToEvolve: null, evolvesTo: [] },
   'Lilithmon':           { xpToEvolve: null, evolvesTo: [] },
+  'Marineangemon':           { xpToEvolve: null, evolvesTo: [] },
 };
 
 const { DIGIMON } = require('./digimon');
