@@ -203,6 +203,7 @@ const DIGIMON = {
   'Ophanimon':           { stage: 'Mega', sprite: 'ophanimon.gif'           },
   'Apollomon':           { stage: 'Mega', sprite: 'apollomon.gif'           },
   'Bancholeomon':        { stage: 'Mega', sprite: 'bancholeomon.gif'        },
+  'Beelstarmon':         { stage: 'Mega', sprite: 'beelstarmon.gif'         },
   'Blackwargreymon':     { stage: 'Mega', sprite: 'blackwargreymon.gif'     },
   'Brakedramon':         { stage: 'Mega', sprite: 'brakedramon.gif'         },
   'Crossmon':            { stage: 'Mega', sprite: 'crossmon.gif'            },

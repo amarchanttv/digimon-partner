@@ -240,6 +240,7 @@ const EVOLUTIONS = {
   'Sakuyamon':           { xpToEvolve: null, evolvesTo: [] },
   'Jijimon':             { xpToEvolve: null, evolvesTo: [] },
   'Justimon':            { xpToEvolve: null, evolvesTo: [] },
+  'Beelstarmon':         { xpToEvolve: null, evolvesTo: [] },
 };
 
 const { DIGIMON } = require('./digimon');
