@@ -145,7 +145,7 @@ const EVOLUTIONS = {
   // ── Ultimate → Mega (800 XP) ──────────────────────────────────────────────
   'Metalgreymon':    { xpToEvolve: 800, evolvesTo: ['Wargreymon', 'Victorygreymon', 'Shinegreymon','Machinedramon'] },
   'Weregarurumon':   { xpToEvolve: 800, evolvesTo: ['Metalgarurumon', 'Miragegaogamon', 'Jijimon'] },
-  'Garudamon':       { xpToEvolve: 800, evolvesTo: ['Gryphonmon', 'Magnadramon', 'Phoenixmon'] },
+  'Garudamon':       { xpToEvolve: 800, evolvesTo: ['Gryphonmon', 'Magnadramon', 'Phoenixmon', 'Varodurumon'] },
   'Megakabuterimon': { xpToEvolve: 800, evolvesTo: ['Herculeskabuterimon', 'Grankuwagamon', 'Magnadramon'] },
   'Lillymon':        { xpToEvolve: 800, evolvesTo: ['Rosemon', 'Lilithmon', 'Sakuyamon'] },
   'Zudomon':         { xpToEvolve: 800, evolvesTo: ['Vikemon', 'Plesiomon', 'Metalseadramon', 'Gigaseadramon', 'Marineangemon'] },
@@ -153,14 +153,14 @@ const EVOLUTIONS = {
   'Angewomon':       { xpToEvolve: 800, evolvesTo: ['Magnadramon', 'Ophanimon', 'Valkyrimon', 'Marineangemon'] },
   'Andromon':        { xpToEvolve: 800, evolvesTo: ['Hiandromon', 'Seraphimon'] },
   'Bigmamemon':      { xpToEvolve: 800, evolvesTo: ['Princemamemon'] },
-  'Cherrymon':       { xpToEvolve: 800, evolvesTo: ['Grankuwagamon', 'Puppetmon', 'Rosemon'] },
-
+  'Cherrymon':       { xpToEvolve: 800, evolvesTo: ['Grankuwagamon', 'Puppetmon', 'Rosemon', 'Kuzuhamon'] },
   'Crescemon':       { xpToEvolve: 800, evolvesTo: ['Dianamon', 'Cherubimon'] },
-  'Crowmon':         { xpToEvolve: 800, evolvesTo: [] },
-  'Cyberdramon':     { xpToEvolve: 800, evolvesTo: [] },
-  'Deramon':         { xpToEvolve: 800, evolvesTo: [] },
-  'Divermon':        { xpToEvolve: 800, evolvesTo: ['Plesiomon'] },
-  'Dragomon':        { xpToEvolve: 800, evolvesTo: [] },
+  'Crowmon':         { xpToEvolve: 800, evolvesTo: ['Varodurumon', 'Kuzuhamon'] },
+  'Cyberdramon':     { xpToEvolve: 800, evolvesTo: ['Justimon'] },
+  'Deramon':         { xpToEvolve: 800, evolvesTo: ['Varodurumon', 'Gryphonmon', 'Puppetmon'] },
+  'Divermon':        { xpToEvolve: 800, evolvesTo: ['Plesiomon', 'Pukumon', 'Neptunemon'] },
+
+  'Dragomon':        { xpToEvolve: 800, evolvesTo: ['Neptunemon'] },
   'Etemon':          { xpToEvolve: 800, evolvesTo: ['Metaletemon', 'Piedmon', 'Megagargomon'] },
   'Flaremon':        { xpToEvolve: 800, evolvesTo: ['Apollomon', 'Blackwargreymon'] },
   'Garbagemon':      { xpToEvolve: 800, evolvesTo: ['Metaletemon'] },
@@ -244,6 +244,9 @@ const EVOLUTIONS = {
   'Lilithmon':           { xpToEvolve: null, evolvesTo: [] },
   'Marineangemon':       { xpToEvolve: null, evolvesTo: [] },
   'Cherubimon':          { xpToEvolve: null, evolvesTo: [] },
+  'Varodurumon':         { xpToEvolve: null, evolvesTo: [] },
+  'Kuzuhamon':         { xpToEvolve: null, evolvesTo: [] },
+  'Neptunemon':         { xpToEvolve: null, evolvesTo: [] },
 };
 
 const { DIGIMON } = require('./digimon');
