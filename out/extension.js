@@ -559,6 +559,15 @@ function activate(ctx) {
     })
   );
 
+  if (vscode.window.onDidEndTerminalShellExecution) {
+    ctx.subscriptions.push(
+      vscode.window.onDidEndTerminalShellExecution(() => {
+        const newEgg = state.addXP(XP_TERMINAL);
+        provider.refresh(newEgg);
+      })
+    );
+  }
+
   ctx.subscriptions.push(
     vscode.commands.registerCommand('digimon.debug.addDigimon', async () => {
       const names = Object.keys(DIGIMON);

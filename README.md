@@ -13,6 +13,7 @@ Open the **Digimon Partner** panel from the activity bar (look for the Digivice 
 | Save a file | +5 XP |
 | Edit code (every 5s) | +1 XP |
 | Open a terminal | +3 XP |
+| Run a terminal command | +3 XP |
 
 Every **500 XP** you earn a new egg. Once your Digimon has enough XP it's ready to Digivolve — click it in the roster to choose its next form.
 
