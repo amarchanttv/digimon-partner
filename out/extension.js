@@ -250,7 +250,6 @@ class DigimonSidebarProvider {
   // Full HTML rebuild — only for structural changes (new digimon, evolve, hatch)
   _buildHtml() {
     if (!this._view) { return; }
-    try {
     this._htmlBuilt = true;
     const snap  = this.state.snapshot();
     const nonce = Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
@@ -513,12 +512,6 @@ render(SNAP);
 </script>
 </body>
 </html>`;
-    } catch(e) {
-      vscode.window.showErrorMessage('Digimon _buildHtml error: ' + e.message + ' | ' + e.stack.split('\n')[1]);
-      this._view.webview.html = `<html><body style="color:red;padding:10px;font-family:monospace">
-        <b>Error loading Digimon view:</b><br>${e.message}<br><pre>${e.stack}</pre>
-      </body></html>`;
-    }
   }
 
   _uri(f) {
