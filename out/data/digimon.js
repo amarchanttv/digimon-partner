@@ -231,7 +231,7 @@ const DIGIMON = {
   'Puppetmon':           { stage: 'Mega', sprite: 'puppetmon.gif'           },
   'Saberleomon':         { stage: 'Mega', sprite: 'saberleomon.gif'         },
   'Sakuyamon':           { stage: 'Mega', sprite: 'sakuyamon.gif'           },
-  'Shinegreymon':        { stage: 'Mega', sprite: 'shinegraymon.gif'        },
+  'Shinegreymon':        { stage: 'Mega', sprite: 'shinegreymon.gif'        },
   'Skullmammothmon':     { stage: 'Mega', sprite: 'skullmammothmon.gif'     },
   'Slayerdramon':        { stage: 'Mega', sprite: 'slayerdramon.gif'        },
   'Victorygreymon':      { stage: 'Mega', sprite: 'victorygreymon.gif'      },
@@ -240,6 +240,9 @@ const DIGIMON = {
   'Varodurumon':         { stage: 'Mega', sprite: 'varodurumon.gif'          },
   'Kuzuhamon':         { stage: 'Mega', sprite: 'kuzuhamon.gif'          },
   'Neptunemon':         { stage: 'Mega', sprite: 'neptunemon.gif'          },
+  'Leviamon':         { stage: 'Mega', sprite: 'leviamon.gif'          },
+  'Venommyotismon':         { stage: 'Mega', sprite: 'venommyotismon.gif'          },
+  'Beelzebumon':         { stage: 'Mega', sprite: 'beelzebumon.gif'          },
 };
 
 module.exports = { DIGIMON };
