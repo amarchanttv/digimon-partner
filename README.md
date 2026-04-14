@@ -36,15 +36,3 @@ With **220 Digimon** available, every playthrough can be different.
 - 🥚 Collect multiple Digimon — earn new eggs as you code
 - ⚡ Evolution panel shows all available digivolution options with previews
 
-## Debug Commands
-
-Open the Command Palette (`Ctrl+Shift+P`) and search for **Digimon**:
-
-- **Digimon: [Debug] Add Digimon** — instantly add any Digimon to your collection
-- **Digimon: [Debug] Add XP** — add XP to all your Digimon
-- **Digimon: [Debug] Validate** — run a data validation report
-- **Digimon: Reset Partner** — reset everything and start fresh
-
-## Source
-
-[GitHub](https://github.com/amarchanttv/digimon-partner)
