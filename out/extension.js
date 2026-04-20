@@ -245,6 +245,7 @@ class DigimonSidebarProvider {
       snap.spritesNeeded.forEach(s => { uris[s] = this._uri(s); });
     }
     this._view.webview.postMessage({ command: 'update', snap, uris });
+    this._updateBadge();
   }
 
   // Full HTML rebuild — only for structural changes (new digimon, evolve, hatch)
@@ -512,6 +513,16 @@ render(SNAP);
 </script>
 </body>
 </html>`;
+    this._updateBadge();
+  }
+
+  _updateBadge() {
+    if (!this._view) { return; }
+    const collection = this.state.collection;
+    const readyToEvolve = collection.filter(d => !d.unhatched && canEvolve(d.currentName, d.xp)).length;
+    const unhatched = collection.filter(d => d.unhatched).length;
+    const total = readyToEvolve + unhatched;
+    this._view.badge = total > 0 ? { value: total, tooltip: total + ' action(s) needed' } : undefined;
   }
 
   _uri(f) {
