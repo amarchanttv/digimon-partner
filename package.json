@@ -2,7 +2,7 @@
   "name": "digimon-partner",
   "displayName": "Digimon Partner",
   "description": "Raise a Digimon partner that evolves as you code!",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "digimon-dev",
   "repository": { "type": "git", "url": "https://github.com/amarchanttv/digimon-partner" },
   "icon": "media/icon.png",
