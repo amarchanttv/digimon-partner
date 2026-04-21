@@ -271,7 +271,7 @@ class DigimonSidebarProvider {
   content="default-src 'none'; img-src ${csp} data:; style-src 'unsafe-inline'; script-src 'nonce-${nonce}';">
 <style>
 * { box-sizing:border-box; margin:0; padding:0; }
-body { background:var(--vscode-sideBar-background); color:var(--vscode-foreground); font-family:var(--vscode-font-family,sans-serif); font-size:12px; padding:10px; }
+body { background:var(--vscode-sideBar-background); color:var(--vscode-foreground); font-family:var(--vscode-font-family,sans-serif); font-size:12px; padding:10px; display:flex; flex-direction:column; height:100vh; }
 
 .egg-screen { text-align:center; padding:20px 0; }
 .egg-screen h2 { font-size:14px; color:#89b4fa; margin-bottom:6px; }
@@ -308,7 +308,7 @@ body { background:var(--vscode-sideBar-background); color:var(--vscode-foregroun
 .mega { text-align:center; font-size:11px; color:#f9e2af; background:var(--vscode-editor-background); border:1px solid #f9e2af; border-radius:6px; padding:6px; margin-bottom:10px; }
 
 .roster-label { font-size:9px; opacity:.4; margin-bottom:6px; text-transform:uppercase; letter-spacing:.5px; }
-.roster { display:flex; flex-direction:column; gap:4px; margin-bottom:10px; max-height:180px; overflow-y:auto; padding-right:2px; }
+.roster { display:flex; flex-direction:column; gap:4px; margin-bottom:10px; flex:1; overflow-y:auto; padding-right:2px; }
 .roster::-webkit-scrollbar { width:4px; }
 .roster::-webkit-scrollbar-track { background:transparent; }
 .roster::-webkit-scrollbar-thumb { background:var(--vscode-panel-border,#444); border-radius:2px; }
@@ -385,8 +385,10 @@ function render(s) {
     '<div class="arena" id="arena">' + walkers + '</div>' +
     '<div id="selPanel">' + selPanel + '</div>' +
     eggProgress +
+    '<div style="flex:1;display:flex;flex-direction:column;min-height:0;">' +
     '<div class="roster-label">Your Digimon</div>' +
     '<div class="roster" id="roster">' + rosterRows + '</div>' +
+    '</div>' +
     '<div class="footer"><span class="total" id="totalXp">Total XP: ' + s.totalXP + '</span><button class="rst-btn" id="rst">Reset All</button></div>';
 
   attachListeners();
